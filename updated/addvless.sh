@@ -1,5 +1,5 @@
 #!/bin/bash
-# My Telegram : https://t.me/liz_mine
+# My Telegram : https://t.me/AndreSakti_Store
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -77,4 +77,4 @@ echo -e "Link No TLS : ${xrayvless2}"
 echo -e "========================="
 echo -e "Link GRPC   : ${xrayvless3}"
 echo -e "========================="
-echo "Scipt Mod By LIZ"
+echo "Scipt Mod By NetworkStore"
