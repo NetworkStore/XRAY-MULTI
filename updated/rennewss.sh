@@ -1,5 +1,5 @@
 #!/bin/bash
-# My Telegram : https://t.me/liz_mine
+# My Telegram : https://t.me/AndreSakti_Store
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -14,7 +14,7 @@ LIGHT='\033[0;37m'
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
-IZIN=$( curl https://raw.githubusercontent.com/AkbarStoreVPN/perizinan/main/ipvps.txt | grep $MYIP )
+IZIN=$( curl https://raw.githubusercontent.com/NetworkStore/perizinan/main/ipvps.txt | grep $MYIP )
 if [ $MYIP = $MYIP ]; then
 echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
@@ -78,4 +78,4 @@ echo "==============================="
 echo "Username  : $user"
 echo "Expired   : $exp4"
 echo "==============================="
-echo "Script MOD By LIZSVR"
+echo "Script MOD By NetworkStore"
